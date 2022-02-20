@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
 .btn {
   @apply py-2 px-4 rounded;
 }
@@ -18,3 +23,7 @@
   @apply rounded overflow-hidden shadow-lg;
 }
 
+.bg-test {
+  background:  linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 96%, rgba(29,29,29,1) 100%), url("https://cdn.sidequestvr.com/file/138816/sidequest_background_3.jpg?size=2048") no-repeat;
+  content: ' ';
+}
