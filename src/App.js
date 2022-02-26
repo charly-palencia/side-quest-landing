@@ -3,9 +3,8 @@ import Slider from 'react-slick';
 import '@fontsource/roboto';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import SideBar from './components/SideBar';
-import Card from './components/Card';
 import {ChevronRightIcon} from '@heroicons/react/solid';
+
 import {
   GAMES_BY_RATING,
   CATEGORY_EDUCATIONAL,
@@ -15,10 +14,14 @@ import {
   CATEGORY_ADVENTURE,
   CATEGORY_LABS,
 } from './data/categories';
+import {newSlideSetting, slideSetting} from './data/slideSettings';
+
+import SideBar from './components/SideBar';
+import Card from './components/Card';
 import ProductsByCategory from './components/ProductsByCategory';
 import Header from './components/Header';
 import Banner from './components/Banner';
-import {newSlideSetting, slideSetting} from './data/slideSettings';
+import Footer from './components/Footer';
 
 const categories = [
   {
@@ -82,6 +85,7 @@ const App = () => {
       {categories.map(({title, products}, index) => (
         <ProductsByCategory products={products} key={index} title={title} />
       ))}
+      <Footer/>
     </div>
   );
 };
