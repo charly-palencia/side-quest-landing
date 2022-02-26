@@ -11,10 +11,12 @@ module.exports = {
     },
     extend: {
       height: {
+        '103': '25.75rem',
         '126': '31.5rem',
         '184': '46rem',
       },
       width: {
+        '103': '25.75rem',
         '126': '31.5rem',
         '184': '46rem',
       },

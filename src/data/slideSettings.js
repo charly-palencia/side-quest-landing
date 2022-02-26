@@ -10,6 +10,7 @@ export const newSlideSetting = {
   ...slideSetting,
   slidesToShow: 5,
   dots: false,
+  adaptiveHeight: true,
   responsive: [
     {
       breakpoint: 1026,

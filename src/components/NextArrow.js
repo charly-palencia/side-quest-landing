@@ -31,7 +31,7 @@ function NextArrow(props) {
 }
 
 NextArrow.propTypes = {
-  onClick: PropType.func(),
+  onClick: PropType.func,
 };
 
 export default NextArrow;

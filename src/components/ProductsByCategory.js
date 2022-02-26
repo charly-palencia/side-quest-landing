@@ -18,12 +18,12 @@ const ProductsByCategory = ({products, title}) => {
   };
 
   return (
-    <div className="card large h-126 ml-14">
-      <h4 className="cursor-pointer">
+    <>
+      <h4 className="cursor-pointer ml-14 text-white my-6 font-medium text-lg flex">
         {title}
         <ChevronRightIcon width="26" />
       </h4>
-      <a src="#">
+      <div className="card large h-126 ml-14">
         <Slider {...settings}>
           {products.map((slide, index) => (
             <Card
@@ -35,16 +35,16 @@ const ProductsByCategory = ({products, title}) => {
             />
           ))}
         </Slider>
-      </a>
-    </div>
+      </div>
+    </>
   );
 };
 
 ProductsByCategory.propTypes = {
-  title: PropType.string(),
+  title: PropType.string,
   products: PropType.arrayOf(PropType.shape({
-    description: PropType.string(),
-    title: PropType.string(),
+    description: PropType.string,
+    title: PropType.string,
   })),
 };
 export default ProductsByCategory;

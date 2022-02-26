@@ -48,31 +48,31 @@ const App = () => {
     <div className="h-full h-screen">
       <SideBar />
       <Header />
-      <div className="banner text-gray-700 w-full h-184">
+      <div className="banner text-gray-700 w-full h-126">
         <Slider {...slideSetting}>
           {DEMO.map((slide, index) => (
             <Banner
               key={index}
               index={index + 1}
               slide={slide}
-              className="banner-slider"
+              className="pl-60  bg-center text-white justify-center h-full flex-1 flex-col"
               customStyle={{backgroundImage: `url(${slide.image})`}}
             />
           ))}
         </Slider>
       </div>
 
-      <div className="card w-[calc(100%-3.5rem)] h-96  ml-14">
-        <h4 className="cursor-pointer">
-          New releases <ChevronRightIcon width="26" />
-        </h4>
+      <h4 className="cursor-pointer ml-14 text-white my-6 font-medium text-lg flex">
+        New releases <ChevronRightIcon className="ml-2" width="26" />
+      </h4>
+      <div className="card w-[calc(100%-3.5rem)] h-103 ml-14">
         <Slider {...newSlideSetting}>
           {GAMES_BY_RATING.map((slide, index) => (
             <Card
               key={'rest' + index}
               index={index + 1}
               slide={slide}
-              className="card-slider"
+              className="pl-60  text-white bg-center bg-auto hover:bg-cover h-full flex-1 flex-col"
               customStyle={{backgroundImage: `url(${slide.image_url})`}}
             />
           ))}
