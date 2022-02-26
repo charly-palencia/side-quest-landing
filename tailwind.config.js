@@ -1,4 +1,4 @@
-const colors = require('tailwindcss/colors')
+const colors = require('tailwindcss/colors');
 
 module.exports = {
   mode: 'jit',
@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     colors: {
       ...colors,
-      'eerie': '#1D1D1D',
+      eerie: '#1D1D1D',
       'eerie-50': 'rgba(29, 29, 29, 0.5)',
     },
     extend: {
@@ -17,8 +17,8 @@ module.exports = {
       width: {
         '126': '31.5rem',
         '184': '46rem',
-      }
+      },
     },
   },
   plugins: [],
-}
+};
