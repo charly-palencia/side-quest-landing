@@ -687,7 +687,7 @@ export const CATEGORY_EDUCATIONAL = [
     apps_id: 1672,
     name: 'GrooVR - Air drumming [APPLAB]',
     summary:
-      "Are you tired of rhythm games that JUST DON'T MAKE SENSE? With GrooVR you will have the chance to learn how to play drums and have fun at the same time in a awesome sci fi environment! ",
+      'Are you tired of rhythm games that JUST DON\'T MAKE SENSE? With GrooVR you will have the chance to learn how to play drums and have fun at the same time in a awesome sci fi environment! ',
     app_banner: 'https://cdn.sidequestvr.com/file/126590/hero-coverpng.png',
     image_url: 'https://cdn.sidequestvr.com/file/126585/frame-50png.png',
     is_webxr: false,
@@ -1008,7 +1008,7 @@ export const CATEGORY_BUILDING = [
   {
     apps_id: 1014,
     name: 'Harvest VR',
-    summary: "Let's get growing!",
+    summary: 'Let\'s get growing!',
     app_banner: 'https://cdn.sidequestvr.com/file/40638/screenshot5png.png',
     image_url: 'https://cdn.sidequestvr.com/file/152763/013.png',
     is_webxr: false,
@@ -1327,7 +1327,7 @@ export const CATEGORY_CLIMBING = [
   {
     apps_id: 431,
     name: 'Voxel Works Quest (Prototype)',
-    summary: "Mine and craft in 6DoF, but it's real work.",
+    summary: 'Mine and craft in 6DoF, but it\'s real work.',
     app_banner:
       'https://cdn.sidequestvr.com/file/6361/Large_Screenshot from 2019-12-30 19-30-00.png',
     image_url: 'https://cdn.sidequestvr.com/file/6356/itch.io_cover_image.png',
@@ -1383,7 +1383,7 @@ export const CATEGORY_CLIMBING = [
     apps_id: 3904,
     name: 'The Silkworm',
     summary:
-      "Silkworm is an action adventure game where you take on the role of The Silkworm! Jump, Climb, Swing, and Zipline your way through the city. Just don't look down!",
+      'Silkworm is an action adventure game where you take on the role of The Silkworm! Jump, Climb, Swing, and Zipline your way through the city. Just don\'t look down!',
     app_banner: 'https://cdn.sidequestvr.com/file/100394/heroartpng.png',
     image_url: 'https://cdn.sidequestvr.com/file/100385/squarepng.png',
     is_webxr: false,
