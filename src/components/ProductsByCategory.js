@@ -1,11 +1,11 @@
-import React, {useState, useEffect, useRef} from 'react'
+import React, {useRef} from 'react'
 import Slider from "react-slick";
 import { ChevronRightIcon} from '@heroicons/react/solid'
 
 import Card from './Card';
 
 function NextArrow(props) {
-  const { className, style, onClick } = props;
+  const { onClick } = props;
  const intervalRef = useRef(null);
 
   const startCounter = () => {

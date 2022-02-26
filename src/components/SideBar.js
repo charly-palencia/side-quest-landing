@@ -2,7 +2,7 @@ import React from 'react'
 import { HomeIcon, UserIcon, SupportIcon, SpeakerphoneIcon, LogoutIcon } from '@heroicons/react/outline'
 
 
-const App = () => (
+const SideBar = () => (
   <nav className="h-screen text-white justify-between flex flex-col w-14 bg-eerie-50 fixed top-0 left-0 z-50">
     <div className="mt-10 mb-10">
       <a href="#">
@@ -51,4 +51,4 @@ const App = () => (
   </nav>
 )
 
-export default App
+export default SideBar
