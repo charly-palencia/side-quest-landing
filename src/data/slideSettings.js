@@ -23,9 +23,21 @@ export const newSlideSetting = {
     {
       breakpoint: 600,
       settings: {
+        arrows: false,
         slidesToShow: 2,
         slidesToScroll: 2,
         infinite: true,
+        speed: 400,
+      },
+    },
+    {
+      breakpoint: 400,
+      settings: {
+        arrows: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        speed: 400,
       },
     },
   ],

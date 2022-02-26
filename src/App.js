@@ -58,7 +58,7 @@ const App = () => {
               key={index}
               index={index + 1}
               slide={slide}
-              className="pl-60  bg-center text-white justify-center h-full flex-1 flex-col"
+              className="pl-20 lg:pl-60  bg-center text-white justify-center h-full flex-1 flex-col"
               customStyle={{backgroundImage: `url(${slide.image})`}}
             />
           ))}

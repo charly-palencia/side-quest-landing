@@ -13,8 +13,36 @@ const ProductsByCategory = ({products, title}) => {
     speed: 2000,
     slidesToShow: 3.1,
     slidestoscroll: 1,
-    lazyLoad: true,
     nextArrow: <NextArrow />,
+    responsive: [
+      {
+        breakpoint: 1026,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          infinite: true,
+          arrows: false,
+        },
+      },
+      {
+        breakpoint: 400,
+        settings: {
+          speed: 500,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          arrows: false,
+        },
+      },
+    ],
   };
 
   return (
