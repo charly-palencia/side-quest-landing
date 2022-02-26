@@ -5,6 +5,7 @@
 body {
   font-family: "Roboto";
   font-size: 16px;
+  @apply bg-eerie;
 }
 
 .btn {
@@ -24,6 +25,76 @@ body {
 }
 
 .bg-test {
-  background:  linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 96%, rgba(29,29,29,1) 100%), url("https://cdn.sidequestvr.com/file/138816/sidequest_background_3.jpg?size=2048") no-repeat;
+  background-image: url("https://cdn.sidequestvr.com/file/138816/sidequest_background_3.jpg?size=1440");
   content: ' ';
 }
+.banner {
+  @apply h-4/5;
+}
+
+.slick-slider {
+  @apply h-full;
+}
+
+.slick-track, .slick-list {
+  @apply h-full;
+  /* width: 100%; */
+}
+
+.slick-slide {
+  @apply h-full !important;
+}
+
+.slick-slide > div  {
+  @apply h-full !important;
+}
+
+.slick-slide > div > div {
+  @apply bg-cover bg-no-repeat !important;
+}
+
+.slick-arrow.slick-next{
+  right: 25px;
+}
+
+.slick-arrow.slick-prev{
+  display: none;
+}
+
+.slick-dots{
+  bottom: 25px !important;
+}
+
+.banner .slick-slide > div {
+  height: inherit;
+}
+
+.banner .slick-slide > div > div{
+  display: flex !important;
+}
+
+.tag {
+  @apply inline-block rounded-full text-white bg-black hover:bg-gray-500 duration-300 text-xs font-bold mr-1 md:mr-2 mb-2 px-2 md:px-4 py-1 opacity-90;
+}
+
+.shadow {
+  @apply w-full h-full bg-black absolute top-0 left-0 opacity-40;
+}
+
+.card > h4{
+  @apply ml-14 text-white my-6 font-medium text-lg flex;
+}
+
+.card > h4 > svg {
+ @apply ml-2;
+}
+
+.card:not(.large) .slick-slide  {
+  @apply pr-4 !important;
+}
+
+.card.large .slick-slide[data-index='0'] .card-details  {
+  @apply pl-14;
+}
+
+.slick-list{padding:0 20% 0 0 !important;}

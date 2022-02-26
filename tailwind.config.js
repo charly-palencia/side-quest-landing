@@ -9,7 +9,16 @@ module.exports = {
       'eerie': '#1D1D1D',
       'eerie-50': 'rgba(29, 29, 29, 0.5)',
     },
-    extend: {},
+    extend: {
+      height: {
+        '126': '31.5rem',
+        '184': '46rem',
+      },
+      width: {
+        '126': '31.5rem',
+        '184': '46rem',
+      }
+    },
   },
   plugins: [],
 }
